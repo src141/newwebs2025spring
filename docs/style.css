@@ -3,27 +3,41 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    background-color: #fdfcfb;
-    color: #333;
+    background-color: #D6E0FF;
+    color: #333333;
     margin: 0;
     padding: 2rem;
   }
   
   h1 {
     font-size: 3rem;
-    color: #ff6347;
+    color: #1900fc;
   }
   
   p {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
   }
   
   a {
-    color: #0077cc;
+    color:coral;
     text-decoration: none;
   }
   
-  a:hover {
-    text-decoration: underline;
+  nav {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  nav a {
+    padding: 0.5rem 1rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+  }
+
+  nav a:hover {
+    background-color: white;
   }
   
