@@ -18,6 +18,11 @@ body {
     font-size: 1.75rem;
   }
   
+  .wrapper {
+    max-width: 50em;
+    margin: 0 auto;
+  }
+  
   a {
     color:black;
     text-decoration: none;
